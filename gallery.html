@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo gallery - concerts, studio, behind the scenes">
+    <title>Gallery - Musician Website</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="alternate icon" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">MUSICIAN</div>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home2.html">Home 2</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Photo Gallery</h1>
+            <p>Moments captured in time</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Gallery Filters -->
+        <section class="section">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <button class="btn filter-btn active" data-filter="all">All</button>
+                    <button class="btn filter-btn" data-filter="concerts">Concerts</button>
+                    <button class="btn filter-btn" data-filter="studio">Studio</button>
+                    <button class="btn filter-btn" data-filter="behind-scenes">Behind Scenes</button>
+                    <button class="btn filter-btn" data-filter="tours">Tours</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="section" style="background-color: var(--bg-light);">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="concerts">
+                        <img src="https://picsum.photos/400/400?random=10" alt="Gallery Image 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'400\'%3E%3Crect fill=\'%23ddd\' width=\'400\' height=\'400\'/%3E%3Ctext fill=\'%23999\' font-family=\'sans-serif\' font-size=\'20\' dy=\'10.5\' font-weight=\'bold\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3EGallery Image%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="gallery-item" data-category="studio">
+                        <img src="https://picsum.photos/400/400?random=11" alt="Gallery Image 2" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'400\'%3E%3Crect fill=\'%23ddd\' width=\'400\' height=\'400\'/%3E%3Ctext fill=\'%23999\' font-family=\'sans-serif\' font-size=\'20\' dy=\'10.5\' font-weight=\'bold\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3EGallery Image%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="gallery-item" data-category="concerts">
+                        <img src="https://picsum.photos/400/400?random=12" alt="Gallery Image 3">
+                    </div>
+                    <div class="gallery-item" data-category="behind-scenes">
+                        <img src="https://picsum.photos/400/400?random=13" alt="Gallery Image 4">
+                    </div>
+                    <div class="gallery-item" data-category="tours">
+                        <img src="https://picsum.photos/400/400?random=14" alt="Gallery Image 5">
+                    </div>
+                    <div class="gallery-item" data-category="concerts">
+                        <img src="https://picsum.photos/400/400?random=15" alt="Gallery Image 6">
+                    </div>
+                    <div class="gallery-item" data-category="studio">
+                        <img src="https://picsum.photos/400/400?random=16" alt="Gallery Image 7">
+                    </div>
+                    <div class="gallery-item" data-category="tours">
+                        <img src="https://picsum.photos/400/400?random=17" alt="Gallery Image 8">
+                    </div>
+                    <div class="gallery-item" data-category="behind-scenes">
+                        <img src="https://picsum.photos/400/400?random=18" alt="Gallery Image 9">
+                    </div>
+                    <div class="gallery-item" data-category="concerts">
+                        <img src="https://picsum.photos/400/400?random=19" alt="Gallery Image 10">
+                    </div>
+                    <div class="gallery-item" data-category="studio">
+                        <img src="https://picsum.photos/400/400?random=20" alt="Gallery Image 11">
+                    </div>
+                    <div class="gallery-item" data-category="tours">
+                        <img src="https://picsum.photos/400/400?random=21" alt="Gallery Image 12">
+                    </div>
+                    <div class="gallery-item" data-category="concerts">
+                        <img src="https://picsum.photos/400/400?random=22" alt="Gallery Image 13">
+                    </div>
+                    <div class="gallery-item" data-category="behind-scenes">
+                        <img src="https://picsum.photos/400/400?random=23" alt="Gallery Image 14">
+                    </div>
+                    <div class="gallery-item" data-category="tours">
+                        <img src="https://picsum.photos/400/400?random=24" alt="Gallery Image 15">
+                    </div>
+                    <div class="gallery-item" data-category="concerts">
+                        <img src="https://picsum.photos/400/400?random=25" alt="Gallery Image 16">
+                    </div>
+                    <div class="gallery-item" data-category="studio">
+                        <img src="https://picsum.photos/400/400?random=26" alt="Gallery Image 17">
+                    </div>
+                    <div class="gallery-item" data-category="behind-scenes">
+                        <img src="https://picsum.photos/400/400?random=27" alt="Gallery Image 18">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-logo">
+                <div class="footer-logo-container">
+                    <div class="logo">MUSICIAN</div>
+                </div>
+                <p style="margin-top: 1rem; color: #ccc;">Creating music that moves the soul</p>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Dedicated to creating music that moves the soul and inspires the heart.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="music.html">Music</a>
+                <a href="videos.html">Videos</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p>Follow us on social media for the latest updates</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Instagram">i</a>
+                    <a href="#" aria-label="YouTube">y</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Musician Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

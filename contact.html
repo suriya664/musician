@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch - Contact form and information">
+    <title>Contact - Musician Website</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="alternate icon" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">MUSICIAN</div>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home2.html">Home 2</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Section -->
+        <section class="section">
+            <div class="container">
+                <div class="grid grid-2">
+                    <!-- Contact Form -->
+                    <div>
+                        <h2>Send Us a Message</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-light);">
+                            Fill out the form below and we'll get back to you as soon as possible.
+                        </p>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Information -->
+                    <div>
+                        <h2>Contact Information</h2>
+                        <div style="margin-top: 2rem;">
+                            <div style="margin-bottom: 2rem;">
+                                <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Email</h4>
+                                <p style="font-size: 1rem;">info@musician.com</p>
+                                <p style="font-size: 1rem;">booking@musician.com</p>
+                            </div>
+                            <div style="margin-bottom: 2rem;">
+                                <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Phone</h4>
+                                <p style="font-size: 1rem;">+1 (555) 123-4567</p>
+                                <p style="font-size: 1rem;">+1 (555) 987-6543</p>
+                            </div>
+                            <div style="margin-bottom: 2rem;">
+                                <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Address</h4>
+                                <p style="font-size: 1rem;">
+                                    123 Music Street<br>
+                                    New York, NY 10001<br>
+                                    United States
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--primary-red); margin-bottom: 1rem;">Social Media</h4>
+                                <div class="social-links">
+                                    <a href="#" aria-label="Facebook">f</a>
+                                    <a href="#" aria-label="Twitter">t</a>
+                                    <a href="#" aria-label="Instagram">i</a>
+                                    <a href="#" aria-label="YouTube">y</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="section" style="background-color: var(--bg-light); padding: 0;">
+            <div style="width: 100%; height: 400px; background: url('https://picsum.photos/1920/400?random=200') center/cover;">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.184132576894!2d-73.98811768459398!3d40.74844097932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Business Hours -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Business Hours</h2>
+                </div>
+                <div class="grid grid-2" style="max-width: 800px; margin: 0 auto;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Office Hours</h3>
+                            <p style="font-size: 1rem; line-height: 2;">
+                                <strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br>
+                                <strong>Saturday:</strong> 10:00 AM - 4:00 PM<br>
+                                <strong>Sunday:</strong> Closed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Response Time</h3>
+                            <p style="font-size: 1rem; line-height: 2;">
+                                We typically respond to emails within 24-48 hours during business days. 
+                                For urgent matters, please call our office directly.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section" style="background-color: var(--bg-light);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="card" style="margin-bottom: 1rem;">
+                        <div class="card-body">
+                            <h4>How can I book a performance?</h4>
+                            <p style="font-size: 1rem; color: var(--text-light);">
+                                Please contact our booking team at booking@musician.com with details about 
+                                your event, including date, venue, and expected audience size.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-bottom: 1rem;">
+                        <div class="card-body">
+                            <h4>Do you offer VIP packages for concerts?</h4>
+                            <p style="font-size: 1rem; color: var(--text-light);">
+                                Yes! VIP packages are available for most concerts and include meet & greet, 
+                                exclusive merchandise, and premium seating. Check the Events page for details.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-bottom: 1rem;">
+                        <div class="card-body">
+                            <h4>Where can I purchase merchandise?</h4>
+                            <p style="font-size: 1rem; color: var(--text-light);">
+                                Official merchandise is available at all live performances and through our 
+                                online store. Visit the Store section for more information.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>How can I stay updated on new releases?</h4>
+                            <p style="font-size: 1rem; color: var(--text-light);">
+                                Subscribe to our newsletter at the bottom of any page, or follow us on 
+                                social media for the latest news, releases, and tour dates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-logo">
+                <div class="footer-logo-container">
+                    <div class="logo">MUSICIAN</div>
+                </div>
+                <p style="margin-top: 1rem; color: #ccc;">Creating music that moves the soul</p>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Dedicated to creating music that moves the soul and inspires the heart.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="music.html">Music</a>
+                <a href="videos.html">Videos</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p>Follow us on social media for the latest updates</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Instagram">i</a>
+                    <a href="#" aria-label="YouTube">y</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Musician Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

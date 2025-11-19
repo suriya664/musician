@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse albums, singles, and music releases">
+    <title>Music - Musician Website</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="alternate icon" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">MUSICIAN</div>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home2.html">Home 2</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Music Collection</h1>
+            <p>Explore albums, singles, and exclusive releases</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Featured Album -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Latest Release</h2>
+                </div>
+                <div class="about-content">
+                    <div>
+                        <img src="https://picsum.photos/600/600?random=40" alt="Featured Album" class="about-image">
+                    </div>
+                    <div>
+                        <h2>New Album Title</h2>
+                        <p class="about-text">
+                            The latest album represents a new chapter in the musical journey. Featuring 
+                            a collection of tracks that blend various genres and styles, this release 
+                            showcases artistic growth and creative exploration.
+                        </p>
+                        <p class="about-text">
+                            <strong>Release Date:</strong> December 2024<br>
+                            <strong>Genre:</strong> Rock, Alternative<br>
+                            <strong>Tracks:</strong> 12 Songs
+                        </p>
+                        <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+                            <a href="#" class="btn btn-primary">Stream Now</a>
+                            <a href="#" class="btn">Buy Album</a>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Albums -->
+        <section class="section" style="background-color: var(--bg-light);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>All Albums</h2>
+                </div>
+                <div class="music-grid">
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?vinyl,music,record" alt="Album 1" class="album-cover">
+                        <h3>Album Title One</h3>
+                        <p>2024</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">12 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?music,album,vinyl" alt="Album 2" class="album-cover">
+                        <h3>Album Title Two</h3>
+                        <p>2023</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">10 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?record,music,vinyl" alt="Album 3" class="album-cover">
+                        <h3>Album Title Three</h3>
+                        <p>2022</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">14 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?music,vinyl,album" alt="Album 4" class="album-cover">
+                        <h3>Album Title Four</h3>
+                        <p>2021</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">11 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?album,record,music" alt="Album 5" class="album-cover">
+                        <h3>Album Title Five</h3>
+                        <p>2020</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">13 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?vinyl,album,record" alt="Album 6" class="album-cover">
+                        <h3>Album Title Six</h3>
+                        <p>2019</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">15 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Singles -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Latest Singles</h2>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <img src="https://picsum.photos/400/250?random=?music,guitar,instrument" alt="Single 1" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Single Title One</h3>
+                            <p class="card-text">Released: December 2024</p>
+                            <a href="#" class="btn">Play</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/400/250?random=?music,piano,keys" alt="Single 2" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Single Title Two</h3>
+                            <p class="card-text">Released: November 2024</p>
+                            <a href="#" class="btn">Play</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/400/250?random=?music,microphone,singer" alt="Single 3" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Single Title Three</h3>
+                            <p class="card-text">Released: October 2024</p>
+                            <a href="#" class="btn">Play</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Streaming Platforms -->
+        <section class="section" style="background-color: var(--bg-light);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Stream on Your Favorite Platform</h2>
+                </div>
+                <div class="grid grid-4" style="text-align: center;">
+                    <div>
+                        <img src="https://picsum.photos/150/150?random=?music,streaming,spotify" alt="Spotify" style="width: 150px; height: 150px; object-fit: contain; margin: 0 auto;">
+                        <h4 style="margin-top: 1rem;">Spotify</h4>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/150/150?random=?music,streaming,apple" alt="Apple Music" style="width: 150px; height: 150px; object-fit: contain; margin: 0 auto;">
+                        <h4 style="margin-top: 1rem;">Apple Music</h4>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/150/150?random=?music,streaming,youtube" alt="YouTube Music" style="width: 150px; height: 150px; object-fit: contain; margin: 0 auto;">
+                        <h4 style="margin-top: 1rem;">YouTube Music</h4>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/150/150?random=?music,streaming,digital" alt="Amazon Music" style="width: 150px; height: 150px; object-fit: contain; margin: 0 auto;">
+                        <h4 style="margin-top: 1rem;">Amazon Music</h4>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-logo">
+                <div class="footer-logo-container">
+                    <div class="logo">MUSICIAN</div>
+                </div>
+                <p style="margin-top: 1rem; color: #ccc;">Creating music that moves the soul</p>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Dedicated to creating music that moves the soul and inspires the heart.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="music.html">Music</a>
+                <a href="videos.html">Videos</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p>Follow us on social media for the latest updates</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Instagram">i</a>
+                    <a href="#" aria-label="YouTube">y</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Musician Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
